@@ -33,7 +33,7 @@ const FilterBar = () => {
     return (
         <div className='overall'>
             <div className='searchbox-wrapperss'>
-            <div className="alert alert-primary" role="alert">
+            <div className="alert alert-secondary" role="alert">
             <label htmlFor="search-input" className='label-searchbox'>Search Countries</label>
             <input type="search" placeholder='Search Country'
             onChange={(event) => {
