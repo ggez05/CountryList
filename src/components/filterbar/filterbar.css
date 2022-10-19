@@ -1,139 +1,128 @@
-.country-wrapper{
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 4rem;
-    text-align: center;
+.country-wrapper {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  text-align: center;
 }
 
-.search-box{
-    margin-left: 20px;
-    padding: 5px;
+.search-box {
+  margin-left: 20px;
+  padding: 5px;
 }
-.label-searchbox{
-    font-size: 30px;
+.label-searchbox {
+  font-size: 30px;
 }
 
-.overall{
-    width: 85%;
-    margin: auto;
+.overall {
+  width: 85%;
+  margin: auto;
 }
-.alert{
-    display: inline;
-    padding: 20px;
-    align-items: center;
+.alert {
+  display: inline;
+  padding: 20px;
+  align-items: center;
 }
 
 .card {
-    height: auto;
-    background-color: rgb(53, 50, 50);
-    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.264);
-    border-radius: 7px;
+  height: auto;
+  background-color: rgb(31, 49, 125);
+  box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.264);
+  border-radius: 7px;
 }
-
-.card:hover {
-    transform: rotate3d(1, 1, 1, 5deg);
-}
-
 
 .card img {
-    width: 100%;
-    height: 170px;
+  width: 100%;
+  height: 170px;
 }
 
 .card__content {
-    color: rgb(121, 216, 78);
-    padding: 25px;
-    line-height: 1.5;
+  color: rgb(16, 216, 78);
+  padding: 25px;
+  line-height: 1.5;
 }
 
 .card__content h3 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.region-search{
-    margin-left: 20px;
-    padding: 5px;
+.region-search {
+  margin-left: 10px;
+  padding: 5px;
 }
 
-.searchbox-wrapperss{
-    display: flex;
-    justify-content: space-between;
+.searchbox-wrapperss {
+  display: block;
 }
-
-
 
 @media screen and (max-width: 992px) {
-    .alert{
-        display: block;
-    }
-        .searchbox-wrapperss {
-            display: block;
-        }
+  .alert {
+    display: block;
+  }
+  .searchbox-wrapperss {
+    display: block;
+  }
 
-        .country-wrapper {
-            margin-top: 40px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
-            text-align: center;
-        }
+  .country-wrapper {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 1000px) {
-    .country-wrapper {
-            margin-top: 40px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
-            text-align: center;
-    }
-    
+  .country-wrapper {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1300px) {
-    .country-wrapper {
-            margin-top: 40px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
-            text-align: center;
-        }
+  .country-wrapper {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 890px) {
-    .country-wrapper {
-        margin-top: 40px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-        text-align: center;
-    }
+  .country-wrapper {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 550px) {
-    .country-wrapper {
-        margin-top: 40px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 0.5rem;
-        text-align: center;
-    }
-        .card__content {
-            padding: 5px;
-            line-height: 0.5;
-        }
-                .search-box {
-                    padding: 1px;
-                }
-                                .label-searchbox {
-                                    font-size: 20px;
-                                }
-                                
-                                                                .alert {
-                                                                    padding: 9px;
-                                                                }
-                                                                                                                                .card img {
-                                                                                                                                    width: 100%;
-                                                                                                                                    height: 150px;
-                                                                                                                                }
-                              
-        
+  .country-wrapper {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .card__content {
+    padding: 5px;
+    line-height: 0.5;
+  }
+  .search-box {
+    padding: 1px;
+  }
+  .label-searchbox {
+    font-size: 20px;
+  }
+
+  .alert {
+    padding: 9px;
+  }
+  .card img {
+    width: 100%;
+    height: 150px;
+  }
 }
